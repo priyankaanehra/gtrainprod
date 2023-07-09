@@ -74,8 +74,14 @@ body{
 }
 
 .insta-logo{
-  filter: grayscale(100%);
-  width: 40px;
+  width: 30px;
+}
+
+.insta-logo-nav{
+  width: 30px;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 4px;
 }
 
 .copyright{
@@ -86,5 +92,5 @@ body{
 .allrights{
   font-size: 12px;
   text-align: center;
-  color: white;
+  color: #949494;
 }

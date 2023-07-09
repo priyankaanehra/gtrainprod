@@ -2,6 +2,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import gtrainlogo from './logo.png'
+import insta from './insta.png'
+
 
 function Navbar() {
     return (
@@ -21,6 +23,9 @@ function Navbar() {
                 <div class="navbar-nav oswald navitems">
                 <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="nav-item nav-link" href="https://www.instagram.com/g_trainproductions/">
+                <img src={insta} alt="logo" className="insta-logo-nav"/>
+            </a>
                 </div>
             </div>
         </nav>
