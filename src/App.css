@@ -1,0 +1,90 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+body{
+  background-color: black;
+}
+
+.mainnav{
+  padding-top: 60px;
+  padding-bottom: 50px;
+  max-width: 100%;
+}
+
+/* how placed */
+.navright{
+  display: flex;
+  text-align: right;
+  justify-content: right;
+  float: right
+}
+
+.navleft{
+  float: left;
+}
+
+
+/* fonts */
+
+.oswald{
+  padding: 10px;
+  font-size: larger;
+  font-family: Oswald;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: .20em;
+  line-height: 2.0em;
+  text-transform: uppercase;
+}
+
+.nav-item{
+  color: white;
+  font-size: 14px;
+}
+.nav-item:hover{
+  color: #949494;
+}
+.nav-logo{
+  width: 55px;
+}
+.navtitle{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.navtitle:hover{
+  color: white;
+}
+.rowstyle{
+  text-align: center;
+  justify-content: center;
+  padding: 0px 2px;
+}
+
+.vid-item{
+  width: auto;
+}
+
+.insta-logo{
+  filter: grayscale(100%);
+  width: 40px;
+}
+
+.copyright{
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.allrights{
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
