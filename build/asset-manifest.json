@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/gtrainprod/static/css/main.7ea8e39c.css",
-    "main.js": "/gtrainprod/static/js/main.dace74cd.js",
+    "main.css": "/gtrainprod/static/css/main.da683d68.css",
+    "main.js": "/gtrainprod/static/js/main.cc80d7d4.js",
     "static/media/logo.png": "/gtrainprod/static/media/logo.e891bc6816747a8164ac.png",
     "static/media/insta.png": "/gtrainprod/static/media/insta.650963659fed770d0eab.png",
+    "static/media/sonymusic.png": "/gtrainprod/static/media/sonymusic.ca8e2f917bfe8d30982f.png",
     "index.html": "/gtrainprod/index.html",
-    "main.7ea8e39c.css.map": "/gtrainprod/static/css/main.7ea8e39c.css.map",
-    "main.dace74cd.js.map": "/gtrainprod/static/js/main.dace74cd.js.map"
+    "main.da683d68.css.map": "/gtrainprod/static/css/main.da683d68.css.map",
+    "main.cc80d7d4.js.map": "/gtrainprod/static/js/main.cc80d7d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ea8e39c.css",
-    "static/js/main.dace74cd.js"
+    "static/css/main.da683d68.css",
+    "static/js/main.cc80d7d4.js"
   ]
 }
