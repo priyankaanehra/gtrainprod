@@ -9,8 +9,6 @@ import sony from './sonymusic.png'
 export default function Design() {
     return (
         <div className="container">
-        <Header/>
-
         <div className='row rowdesign'>
             <div className='col-md-5 comp-item'>
                 <img src={sony} alt="logo" className="sony-logo"/>
@@ -19,7 +17,6 @@ export default function Design() {
                 <h1>Empire Music Group</h1>
             </div>
         </div>
-        <Footer/>
         </div>
         
     )

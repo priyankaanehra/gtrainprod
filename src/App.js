@@ -1,9 +1,8 @@
 import './App.css';
 import Header from './Header.js'
-import MainContent from './MainContent'
 import Footer from './Footer'
 import Contact from './Contact.js'
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from './Home.js'
 import Design from './Design.js'
 
@@ -12,13 +11,15 @@ import Design from './Design.js'
 function App() {
   return (
     <div className="container"> 
-        <BrowserRouter>
+        <Router>
+          <Header/>
           <Routes>
-            <Route index element={<Home/>} />
+            <Route path="/" element={<Home/>}/>
             <Route path='/contact' element={<Contact />} />
             <Route path='/design' element={<Design />} />
           </Routes>
-        </BrowserRouter>      
+          <Footer/>
+        </Router>      
     </div>
   );
 }

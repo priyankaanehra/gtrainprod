@@ -7,7 +7,6 @@ import Footer from './Footer';
 export default function Contact(){
     return(
         <div className='container contactpage'>
-            <Header/>
             <h1 className='contact-title'>LET'S WORK TOGETHER</h1>
             <div>
                 <p className='email'>
@@ -35,9 +34,7 @@ export default function Contact(){
                     <input type="text" class="form-control" id="message" placeholder=""/>
                 </div>
                 <button type="submit" class="btn btn-outline-light contactsubmit">Submit</button>
-            </form>
-            <Footer/>
-                            
+            </form>                            
     </div>
     )   
 }
