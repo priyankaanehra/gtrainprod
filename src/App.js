@@ -1,10 +1,10 @@
 import './App.css';
-import Header from './Header.js'
-import Footer from './Footer'
-import Contact from './Contact.js'
+import Header from './Components/Header.js'
+import Footer from './Components/Footer'
+import Contact from './Pages/Contact.js'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Home from './Home.js'
-import Design from './Design.js'
+import Home from './Pages/Home.js'
+import Design from './Pages/Design.js'
 
 
 

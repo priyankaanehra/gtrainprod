@@ -169,15 +169,20 @@ input{
 .comp-item{
   background-color: #fff;
   padding: 110px 50px;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
 }
 
 .sony-logo{
-  width: 80%;
+  width: 70%;
 }
 
 .rowdesign{
-  text-align: center;
-  justify-content: center;
   column-gap: 1rem;
   row-gap: 1rem;
+  align-items: center;
+  text-align: center;
 }
