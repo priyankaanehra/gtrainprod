@@ -13,10 +13,11 @@ function App() {
     <div className="container"> 
         <Router>
           <Header/>
-          <Routes>
+          <Routes basename={process.env.PUBLIC_URL}>
             <Route path="/" element={<Home/>}/>
             <Route path='/contact' element={<Contact />} />
             <Route path='/design' element={<Design />} />
+            <Route component={() => (<div>404 Not found </div>)} />
           </Routes>
           <Footer/>
         </Router>      
