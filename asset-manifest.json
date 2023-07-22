@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/gtrainprod/static/css/main.7ea8e39c.css",
-    "main.js": "/gtrainprod/static/js/main.dace74cd.js",
+    "main.css": "/gtrainprod/static/css/main.6d30bd1b.css",
+    "main.js": "/gtrainprod/static/js/main.05f0c9a6.js",
+    "static/media/umg.png": "/gtrainprod/static/media/umg.ad0433c48eea3c746c01.png",
     "static/media/logo.png": "/gtrainprod/static/media/logo.e891bc6816747a8164ac.png",
     "static/media/insta.png": "/gtrainprod/static/media/insta.650963659fed770d0eab.png",
+    "static/media/sony.png": "/gtrainprod/static/media/sony.ca8e2f917bfe8d30982f.png",
     "index.html": "/gtrainprod/index.html",
-    "main.7ea8e39c.css.map": "/gtrainprod/static/css/main.7ea8e39c.css.map",
-    "main.dace74cd.js.map": "/gtrainprod/static/js/main.dace74cd.js.map"
+    "main.6d30bd1b.css.map": "/gtrainprod/static/css/main.6d30bd1b.css.map",
+    "main.05f0c9a6.js.map": "/gtrainprod/static/js/main.05f0c9a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ea8e39c.css",
-    "static/js/main.dace74cd.js"
+    "static/css/main.6d30bd1b.css",
+    "static/js/main.05f0c9a6.js"
   ]
 }
