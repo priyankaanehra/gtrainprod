@@ -1,5 +1,4 @@
 import insta from '../../assets/insta.png'
-import github from '../../assets/github-mark.png'
 import './Footer.css'
 
 

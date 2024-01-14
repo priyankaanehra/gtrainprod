@@ -1,9 +1,4 @@
-import linkedin from '../../assets/linkedin.jpeg'
 import './Home.css'
-import pn from '../../assets/pn.jpeg'
-import gh from '../../assets/github-mark.png'
-import location from '../../assets/location.png'
-import { Link } from 'react-router-dom'
 import bgvid from "../../assets/gtrainvid1.mp4"
 import wayup from "../../assets/1wayup.png"
 
