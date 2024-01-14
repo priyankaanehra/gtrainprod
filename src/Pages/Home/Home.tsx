@@ -1,6 +1,5 @@
 import './Home.css'
 import bgvid from "../../assets/gtrainvid1.mp4"
-import wayup from "../../assets/1wayup.png"
 
 export default function Home(){
 
@@ -18,9 +17,6 @@ export default function Home(){
                 <p className='companytype'>Production Company</p>
             </div>    
             </div>       
-            <div className='musicvid1'>
-            <img src={wayup} alt="wayup" className="wayup"/>
-            </div> 
         </div>
         )
 }
