@@ -1,0 +1,92 @@
+#myVideo{
+    position: relative;
+    width: 100vw;
+    z-index: -1;
+}
+.gtvideo:before{
+  content:"";
+  position: absolute;
+  top:113.68px;
+  right:0;
+  left:0;
+  bottom:0;
+  height: 850px;
+  z-index:1;
+  background-color: rgba(0,0,0,.6);
+}
+
+.gname{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:113.68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 2;
+}
+
+.homeName{
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 71.8671px;
+    opacity: 1;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    white-space: pre-wrap; 
+    transition-timing-function: ease; 
+    transition-duration: 0.65s; 
+    transition-delay: 0.102857s;
+    font-family: "Oswald", serif;
+    letter-spacing: 0.1cm;
+}
+
+.horizontalblock{
+    position: relative;
+    color: rgb(250, 250, 250);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 14.2648px;
+    font-style: normal;
+    font-weight: 400;
+    height: 28.6016px;
+    justify-content: flex-start;
+    letter-spacing: -0.142648px;
+    line-height: 21.3972px;
+    overflow-wrap: break-word;
+    padding-bottom: 0px;
+    padding-top:0px;
+    text-size-adjust: 100%;
+    width: 100.773px;
+    border-bottom: 2px solid white;
+}
+
+.companytype{
+    color: rgb(250, 250, 250);
+    display: inline;
+    font-family: Oswald;
+    font-size: 19.4704px;
+    font-style: normal;
+    font-weight:700;
+    height: auto;
+    letter-spacing: normal;
+    line-height: 23.1776px;
+    overflow-wrap: break-word;
+    text-align:center;
+    text-decoration-color: rgb(250, 250, 250);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+    text-transform:uppercase;
+    white-space-collapse:preserve;
+    padding: 39.578px;
+}
+.wayup{
+    width: 100vw;
+}
+
+.ytvidtrial{
+    position: fixed; z-index: -99; width: 100%; height: 100%
+}

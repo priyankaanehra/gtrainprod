@@ -1,0 +1,25 @@
+.aboutLayout{
+    padding: 20px 300px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.resumeTitle{
+    border-bottom: .5px solid black;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+.resumeListUL{
+    list-style: none;
+}
+
+.jobtTitle{
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+.company{
+    margin-bottom: 0px;
+    font-weight:bold;
+}

@@ -1,0 +1,70 @@
+.navbar-left li,
+.navbar-right li {
+    font-family: "Oswald", serif;
+    color:white;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar-right{
+    margin:0px;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+a:visited{
+    text-decoration: none;
+    color: white
+}
+.navbar-left ul,
+.navbar-right ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+.navbar-right li{
+    letter-spacing:.1em;
+    padding-right: 5px;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 32px 58px;
+}
+
+.header{
+    background-color: black;
+}
+
+.insta-logo-nav{
+    width: 30px;
+    padding-bottom: 3.5px;
+}
+.yt-logo-nav{
+    width: 47px;
+    padding-bottom: 4px;
+}
+.mail-logo-nav{
+    width: 47px;
+    padding-bottom: 3px;
+  }
+
+.linkedin-logo-nav{
+    width: 30px;
+    padding-bottom: 5.7px;
+}
+
+.gtrain-logo-nav{
+    width: 50px;
+}
