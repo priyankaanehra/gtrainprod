@@ -49,6 +49,7 @@
 .eandv{
     width: 100px;
     padding-top: 30px;
+    padding-left: 15px;
 }
 
 .rollingLoud{
@@ -102,14 +103,14 @@
     z-index: 1;
 }
 .gname h1{
-    font-size: 4.0em;
+    font-size: 4.8em;
     margin-bottom: 0.5em;
     letter-spacing: 0.1cm;
     font-weight: 700;
     opacity: 1;
 }
 .gname p{
-    font-size: 2.0em;
+    font-size: 2.5em;
     font-weight:700;
     font-style: normal;
     font-family: Oswald;
@@ -151,7 +152,7 @@
 }
 .video-wrapper {
     width: 100%; /* Ensure videos take up the full width of the grid cell */
-    max-width: 560px; /* Adjust maximum width as needed */
+    max-width: 100%; /* Adjust maximum width as needed */
 }
 
 .video-wrapper iframe {
