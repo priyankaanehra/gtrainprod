@@ -42,8 +42,6 @@ export default function Home(){
                 <div className="grid-item">
                 <img src={sony} alt="sony" className="sony"/>
                 </div>
-            </div>  
-            <div className='brands grid-container'>
                 <div className="grid-item">
                 <img src={rollingLoud} alt="onerpm" className="rollingLoud"/>
                 </div>
@@ -61,11 +59,11 @@ export default function Home(){
 
             <div className='vidContain'>
                 <div className='onewayup video-grid'>
-                    <div className="video-wrapper">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-E2ClhNYW-U?si=LDniniaVZNhCR1Vq" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen ></iframe>
-                    </div>
                     <div className="grid-item">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/oa96OPhV59s?si=m3DwKgHOzoDxVjC3" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    </div>
+                    <div className="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-E2ClhNYW-U?si=LDniniaVZNhCR1Vq" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen ></iframe>
                     </div>
                 </div>
             </div>

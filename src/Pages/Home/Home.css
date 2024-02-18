@@ -1,9 +1,29 @@
-.grid-container{
+/* .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
     text-align: center;
     background-color: black;
+} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto); /* Adjust as needed */
+    background-color: black;
+    text-align: center;
+    justify-content: center; 
 }
+
+@media screen and (max-width: 1054px) {
+    .grid-container {
+        grid-template-columns: repeat(2, auto); /* Change to two items in each row for smaller screens */
+        margin: auto;
+    }
+    .sony{
+        width: 60px;
+        padding-top: 15px;
+    }
+}
+
 .brandContain{
     padding-bottom: 90px;
 }
@@ -176,9 +196,15 @@
 
 .video-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
     gap: 50px; /* Gap between grid items */
     justify-content: center; /* Center the grid horizontally */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+@media screen and (min-width: 1054px) {
+    .video-grid {
+        grid-template-columns: repeat(2, 1fr); /* Change to a single column on smaller screens */
+    }
 }
 .video-wrapper {
     width: 100%; /* Ensure videos take up the full width of the grid cell */
