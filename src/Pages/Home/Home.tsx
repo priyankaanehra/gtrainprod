@@ -21,7 +21,7 @@ export default function Home(){
                 </div>
                 <div className='gname'>
                     <h1 className='homeName'>G-TRAIN PRODUCTIONS</h1>
-                    <div className='horizontalblock'></div>
+                    <div className='line'></div>
                     <p className='companytype'>Production Company</p>
                 </div>    
             </div>
@@ -58,7 +58,7 @@ export default function Home(){
             </div>
 
             <div className='vidContain'>
-                <div className='onewayup video-grid'>
+                <div className='video-grid'>
                     <div className="grid-item">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/oa96OPhV59s?si=m3DwKgHOzoDxVjC3" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
@@ -68,7 +68,7 @@ export default function Home(){
                 </div>
             </div>
             <div className='vidContain'>
-                <div className='onewayup video-grid'>
+                <div className='video-grid'>
                     <div className="video-wrapper">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/031GpK6nKOI?si=_dXs3jvlMj5ANo5f" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>                    
                     </div>
@@ -78,7 +78,7 @@ export default function Home(){
                     </div>
             </div>
             <div className='vidContain'>
-                <div className='onewayup video-grid'>
+                <div className='video-grid'>
                         <div className="video-wrapper">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/P-rN0qPh1qE?si=EszYuMDHCnlYcn6y" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>                    
                         </div>
