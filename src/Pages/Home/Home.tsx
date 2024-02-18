@@ -28,7 +28,7 @@ export default function Home(){
                 </div>    
             </div>
             <div className='brandsTitle'>
-                <h4 className='coolBrands'>Previous clients we've worked with</h4>
+                <h4 className='coolBrands'>Previous clients</h4>
             </div>
             <div className='brandContain'>
             <div className='brands grid-container'>
