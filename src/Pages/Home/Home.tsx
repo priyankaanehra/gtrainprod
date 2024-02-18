@@ -6,7 +6,6 @@ import onerpm from "../../assets/onerpm.jpeg"
 import sony from "../../assets/sony.jpeg"
 import rollingLoud from "../../assets/rollingloud.png"
 import umg from "../../assets/umg.png"
-import eandv from "../../assets/eandv.png"
 import montblanc from "../../assets/montblanc.png"
 import empire from "../../assets/empire.png"
 
