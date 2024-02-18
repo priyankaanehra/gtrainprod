@@ -1,3 +1,32 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    background-color: black;
+}
+.brandContain{
+    padding-bottom: 90px;
+}
+.brands{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.epic{
+    width: 100px;
+    padding-top: 40px;
+}
+.sony{
+    width: 100px;
+    padding-top: 15px;
+}
+.cmg{
+    width: 100px;
+    margin: 20px;
+}
+.onerpm{
+    width: 110px;
+    padding-top: 27px;
+}
 #myVideo{
     position: relative;
     width: 100vw;
@@ -122,3 +151,66 @@
         font-size: 40%;
     }
   } 
+
+.brandsTitle{
+    padding-top: 70px;    
+}
+.coolBrands{
+    color: white;
+    text-align: center;
+    font-family: "Oswald, Helvetica Neue Light", Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.onewayup{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 50px; /* Gap between grid items */
+    justify-content: center; /* Center the grid horizontally */
+}
+.video-wrapper {
+    width: 100%; /* Ensure videos take up the full width of the grid cell */
+    max-width: 560px; /* Adjust maximum width as needed */
+}
+
+.video-wrapper iframe {
+    width: 100%; /* Ensure the iframe takes up the full width of its container */
+    height: 315px; /* Adjust height as needed */
+}
+.vidContain{
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+}
+
+
+.rollingLoud{
+    width: 150px;
+    padding-top: 15px;
+}
+.empire{
+    width: 100px;
+    padding-top: 15px;
+    margin-left: 45px;
+}
+
+.montblanc{
+    width: 120px;
+    padding-top: 15px;
+}
+.umg{
+    width: 200px;
+    padding-top: 15px;
+    margin-left: 10px;
+}
