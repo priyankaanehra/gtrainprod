@@ -73,22 +73,18 @@ export default function Home(){
                     <div className="video-wrapper">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/-E2ClhNYW-U?si=LDniniaVZNhCR1Vq" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen ></iframe>
                     </div>
-                </div>
-            </div>
-            <div className='vidContain'>
-                <div className='video-grid'>
                     <div className="video-wrapper">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/031GpK6nKOI?si=_dXs3jvlMj5ANo5f" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>                    
                     </div>
-                        <div className="grid-item">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WA1-hJHEj64?si=6fujoYGF8c80T8aF" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>                
-                        </div>
-                        <div className="video-wrapper">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/P-rN0qPh1qE?si=EszYuMDHCnlYcn6y" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>                    
-                        </div>
-                        <div className="grid-item">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6U7_aZbS3qE?si=5jOF3CkC8qC34Gpb" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>                    
-                        </div>
+                    <div className="grid-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WA1-hJHEj64?si=6fujoYGF8c80T8aF" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>                
+                    </div>
+                    <div className="video-wrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/P-rN0qPh1qE?si=EszYuMDHCnlYcn6y" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>                    
+                    </div>
+                    <div className="grid-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6U7_aZbS3qE?si=5jOF3CkC8qC34Gpb" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>                    
+                    </div>
                 </div>
             </div>
         </div>  
