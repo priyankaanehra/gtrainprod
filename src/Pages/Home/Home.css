@@ -159,12 +159,12 @@
     display: grid;
     gap: 50px; /* Gap between grid items */
     justify-content: center; /* Center the grid horizontally */
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(2, 1fr));
 }
 
-@media screen and (min-width: 1054px) {
+@media screen and (max-width: 1586) {
     .video-grid {
-        grid-template-columns: repeat(2, 1fr); /* Change to a single column on smaller screens */
+        grid-template-columns: repeat(1, 1fr); /* Change to a single column on smaller screens */
     }
 }
 .video-wrapper {
