@@ -13,7 +13,7 @@ import eandv from "../../assets/eandv.png"
 export default function Home(){
 
     return(
-        <div>
+        <div className='homeGeneral'>
             <div>
                 <div className='gtvideo'>
                 <video autoPlay muted loop id="myVideo">
