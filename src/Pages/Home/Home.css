@@ -24,16 +24,17 @@
 .brandContain{
     padding-bottom: 90px;
 }
+
 .brands{
     padding-left: 100px;
     padding-right: 100px;
 }
 .epic{
     width: 100px;
-    padding-top: 30px;
+    padding-top: 35px;
 }
 .sony{
-    width: 100px;
+    width: 110px;
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 5px;
@@ -43,13 +44,14 @@
     margin: 20px;
 }
 .onerpm{
-    width: 110px;
-    padding-top: 27px;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 .eandv{
-    width: 100px;
+    width: 140px;
     padding-top: 30px;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 .rollingLoud{
@@ -71,8 +73,9 @@
     padding-left: 15px;
 }
 .umg{
-    width: 180px;
+    width: 200px;
     padding-top: 15px;
+    padding-left: 15px;
 }
 /*  */
 

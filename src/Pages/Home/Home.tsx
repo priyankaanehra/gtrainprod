@@ -9,6 +9,7 @@ import montblanc from "../../assets/montblanc.png"
 import empire from "../../assets/empire.png"
 import motown from "../../assets/motown.png"
 import eandv from "../../assets/eandv.png"
+import onerpm from "../../assets/onerpm.jpeg"
 
 export default function Home(){
 
@@ -57,6 +58,9 @@ export default function Home(){
                 </div>
                 <div className="grid-item">
                 <img src={eandv} alt="eandv" className="eandv"/>
+                </div>
+                <div className="grid-item">
+                <img src={onerpm} alt="onerpm" className="onerpm"/>
                 </div>
             </div>  
             </div>
