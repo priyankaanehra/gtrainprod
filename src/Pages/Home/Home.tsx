@@ -1,13 +1,15 @@
 import './Home.css'
 import bgvid from "../../assets/gtrainvid2.mp4"
 import epic from "../../assets/epic.png"
-import cmg from "../../assets/cmg.png"
+import cmg from "../../assets/cmg.jpeg"
 import onerpm from "../../assets/onerpm.jpeg"
 import sony from "../../assets/sony.jpeg"
 import rollingLoud from "../../assets/rollingloud.png"
 import umg from "../../assets/umg.png"
 import montblanc from "../../assets/montblanc.png"
 import empire from "../../assets/empire.png"
+import motown from "../../assets/motown.png"
+import eandv from "../../assets/eandv.png"
 
 export default function Home(){
 
@@ -26,7 +28,7 @@ export default function Home(){
                 </div>    
             </div>
             <div className='brandsTitle'>
-                <h4 className='coolBrands'>Some Cool Brands <br></br> we've worked with</h4>
+                <h4 className='coolBrands'>Previous clients</h4>
             </div>
             <div className='brandContain'>
             <div className='brands grid-container'>
@@ -43,16 +45,22 @@ export default function Home(){
                 <img src={sony} alt="sony" className="sony"/>
                 </div>
                 <div className="grid-item">
-                <img src={rollingLoud} alt="onerpm" className="rollingLoud"/>
+                <img src={rollingLoud} alt="rollingLoud" className="rollingLoud"/>
                 </div>
                 <div className="grid-item">
-                <img src={empire} alt="cmg" className="empire"/>
+                <img src={empire} alt="empire" className="empire"/>
                 </div>
                 <div className="grid-item">
-                <img src={umg} alt="sony" className="umg"/>
+                <img src={umg} alt="umg" className="umg"/>
                 </div>
                 <div className="grid-item">
-                <img src={montblanc} alt="epic" className="montblanc"/>
+                <img src={montblanc} alt="montblanc" className="montblanc"/>
+                </div>
+                <div className="grid-item">
+                <img src={motown} alt="motown" className="motown"/>
+                </div>
+                <div className="grid-item">
+                <img src={eandv} alt="eandv" className="eandv"/>
                 </div>
             </div>  
             </div>
