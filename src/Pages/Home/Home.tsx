@@ -2,6 +2,7 @@ import './Home.css'
 import bgvid from "../../assets/gtrainvid2.mp4"
 import epic from "../../assets/epic.png"
 import cmg from "../../assets/cmg.jpeg"
+import onerpm from "../../assets/onerpm.jpeg"
 import sony from "../../assets/sony.jpeg"
 import rollingLoud from "../../assets/rollingloud.png"
 import umg from "../../assets/umg.png"
@@ -9,12 +10,11 @@ import montblanc from "../../assets/montblanc.png"
 import empire from "../../assets/empire.png"
 import motown from "../../assets/motown.png"
 import eandv from "../../assets/eandv.png"
-import onerpm from "../../assets/onerpm.jpeg"
 
 export default function Home(){
 
     return(
-        <div className='homeGeneral'>
+        <div>
             <div>
                 <div className='gtvideo'>
                 <video autoPlay muted loop id="myVideo">
@@ -28,7 +28,7 @@ export default function Home(){
                 </div>    
             </div>
             <div className='brandsTitle'>
-                <h4 className='coolBrands'>Previous clients</h4>
+                <h4 className='coolBrands'>Previous clients we've worked with</h4>
             </div>
             <div className='brandContain'>
             <div className='brands grid-container'>

@@ -8,15 +8,19 @@
     text-align: center;
     justify-content: center; 
     padding: 5px;
-    gap:10px
+    gap:10px;
+    align-items: center;
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1024px) {
     .grid-container {
-        grid-template-columns: repeat(2, auto); /* Change to two items in each row for smaller screens */
+        grid-template-columns: repeat(3, auto); /* Change to two items in each row for smaller screens */
         margin: auto;
         text-align: center;
         justify-content: center; 
+    }
+    .brands{
+        padding: 0px 35%
     }
 }
 
@@ -26,10 +30,39 @@
 }
 
 .brands{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 0px 15%
 }
-.epic{
+.brands img{
+    width: auto; /* Reset width */
+    height: auto; /* Reset height */
+    max-width: 70%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 70%; /* Ensure the image doesn't exceed its container's height */
+    justify-self: center; /* Center the image horizontally within its grid cell */
+    align-self: center; /* Center the image vertically within its grid cell */
+    padding: 15px;
+}
+.brands img.motown{
+    max-width: 63%;
+    max-height: 63%;
+}
+.brands img.rollingLoud{
+    max-width: 95% ;
+    max-height: 95% ;
+}
+.brands img.umg{
+    max-width: 95% ;
+    max-height: 95% ;
+}
+.brands img.eandv{
+    max-width: 95% ;
+    max-height: 95% ;
+}
+.brands img.onerpm{
+    max-width: 65% ;
+    max-height: 65% ;
+}
+
+/* .epic{
     width: 100px;
     padding-top: 35px;
 }
@@ -42,42 +75,20 @@
 .cmg{
     width: 90px;
     margin: 20px;
-}
-.onerpm{
-    width: 100px;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-.eandv{
-    width: 140px;
-    padding-top: 30px;
-    padding-left: 25px;
-}
+} */
 
-.rollingLoud{
-    width: 150px;
-    padding-top: 15px;
-}
-.empire{
+/* .empire{
     width: 100px;
     padding-top: 15px;
-}
-.motown{
-    width: 94px;
-    padding: 25px 0px 0px 15px;
-}
+} */
 
-.montblanc{
+
+/* .montblanc{
     width: 120px;
     padding-top: 15px;
     padding-left: 15px;
-}
-.umg{
-    width: 200px;
-    padding-top: 15px;
-    padding-left: 15px;
-}
-/*  */
+} */
+
 
 .gtvideo{
     font-family: "Oswald", serif;
@@ -127,7 +138,10 @@
 }
 
 .brandsTitle{
-    padding-top: 70px;    
+    padding-top: 70px;  
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .coolBrands{
     color: white;
@@ -136,7 +150,7 @@
     text-transform: uppercase;
     padding: 10px;
     display: block;
-    font-size: 32px;
+    font-size: 4.5vh;
     font-weight: 700;
 }
 
