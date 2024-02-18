@@ -162,7 +162,7 @@
     grid-template-columns: repeat(auto-fit, minmax(2, 1fr));
 }
 
-@media screen and (max-width: 1586) {
+@media screen and (max-width: 1024) {
     .video-grid {
         grid-template-columns: repeat(1, 1fr); /* Change to a single column on smaller screens */
     }
