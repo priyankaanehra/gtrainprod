@@ -2,7 +2,6 @@ import './Home.css'
 import bgvid from "../../assets/gtrainvid2.mp4"
 import epic from "../../assets/epic.png"
 import cmg from "../../assets/cmg.jpeg"
-import onerpm from "../../assets/onerpm.jpeg"
 import sony from "../../assets/sony.jpeg"
 import rollingLoud from "../../assets/rollingloud.png"
 import umg from "../../assets/umg.png"
@@ -33,7 +32,7 @@ export default function Home(){
             <div className='brandContain'>
             <div className='brands grid-container'>
                 <div className="grid-item">
-                <img src={onerpm} alt="onerpm" className="onerpm"/>
+                <img src={motown} alt="motown" className="motown"/>
                 </div>
                 <div className="grid-item">
                 <img src={cmg} alt="cmg" className="cmg"/>
@@ -55,9 +54,6 @@ export default function Home(){
                 </div>
                 <div className="grid-item">
                 <img src={montblanc} alt="montblanc" className="montblanc"/>
-                </div>
-                <div className="grid-item">
-                <img src={motown} alt="motown" className="motown"/>
                 </div>
                 <div className="grid-item">
                 <img src={eandv} alt="eandv" className="eandv"/>

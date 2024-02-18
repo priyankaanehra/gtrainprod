@@ -30,8 +30,10 @@
     padding-top: 30px;
 }
 .sony{
-    width: 90px;
+    width: 100px;
     padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 5px;
 }
 .cmg{
     width: 90px;
@@ -55,8 +57,8 @@
     padding-top: 15px;
 }
 .motown{
-    width: 65px;
-    padding-top: 15px;
+    width: 94px;
+    padding: 25px 0px 0px 15px;
 }
 
 .montblanc{
