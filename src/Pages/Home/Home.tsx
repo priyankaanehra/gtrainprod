@@ -1,4 +1,5 @@
 import './Home.css'
+import { Link } from 'react-router-dom';
 import bgvid from "../../assets/gtrainvid2.mp4"
 import epic from "../../assets/epic.png"
 import cmg from "../../assets/cmg.jpeg"
@@ -10,6 +11,9 @@ import montblanc from "../../assets/montblanc.png"
 import empire from "../../assets/empire.png"
 import motown from "../../assets/motown.png"
 import eandv from "../../assets/eandv.png"
+import insta from "../../assets/insta.png"
+import email from "../../assets/email.png"
+import linkedin from "../../assets/linkedin.png"
 
 export default function Home(){
 
@@ -85,6 +89,21 @@ export default function Home(){
                     <div className="grid-item">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/6U7_aZbS3qE?si=5jOF3CkC8qC34Gpb" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>                    
                     </div>
+                </div>
+            </div>
+
+            <div className='connectMain'>
+                <h2 className='worktogether'>Let's Work Together!</h2>
+                <div className='connectLogo'>
+                    <Link to="https://www.instagram.com/g_trainproductions/" target='_blank'>
+                        <img src={insta} alt="insta" className="connectImg"/>
+                    </Link>
+                    <Link to="mailto:gtrainvisuals@gmail.com?Subject=" target='_blank'>
+                        <img src={email} alt="email" className="connectImg"/>
+                    </Link>
+                    <Link to="https://www.linkedin.com/company/g-train-productions/" target='_blank'>
+                    <img src={linkedin} alt="linkedin" className="connectImg"/>
+                    </Link>
                 </div>
             </div>
         </div>  
