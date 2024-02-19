@@ -174,7 +174,7 @@
 
 .video-wrapper iframe {
     width: 100%; /* Ensure the iframe takes up the full width of its container */
-    height: 315px; /* Adjust height as needed */
+    height: 100%; /* Adjust height as needed */
 }
 .vidContain{
     display: flex;
