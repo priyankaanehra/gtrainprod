@@ -131,7 +131,7 @@
 
 }
 .line{
-    width: 50%; /* Adjust the width of the line */
+    width: 20%; /* Adjust the width of the line */
     height: 1px; /* Adjust the height of the line */
     background-color: white; /* Change the color of the line */
     margin: 20px auto; /* Adjust the margin */
